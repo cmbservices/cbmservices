@@ -11,6 +11,21 @@ export default function Home() {
         <p className="mt-4 text-lg text-gray-600">
           CBM SERVICES LLC guides businesses through formation in Dubai — mainland and free zone — and manages external approvals and DEQ Smart portal processes so you can focus on growth.
         </p>
+              <section className="flex flex-col md:flex-row items-center justify-between py-16">
+                  <div className="md:w-1/2 p-6">
+                      <h2 className="text-3xl font-bold text-gray-800 mb-4">Your Trusted Business Consultancy in Dubai</h2>
+                      <p className="text-gray-600 mb-4">
+                          At CBM Services LLC, we provide expert guidance in business setup, government approvals, and regulatory compliance across Dubai’s mainland and free zones.
+                      </p>
+                      <a href="/contact" className="bg-blue-700 text-white px-6 py-3 rounded-lg hover:bg-blue-800 transition">
+                          Get in Touch
+                      </a>
+                  </div>
+                  <div className="md:w-1/2 p-6">
+                      <img src="/consultancy.jpg" alt="Business Consultancy in Dubai" className="rounded-2xl shadow-lg" />
+                  </div>
+              </section>
+
 
         <div className="mt-6 space-y-3">
           <p className="text-sm text-gray-600">Our specialties:</p>
